@@ -5,7 +5,7 @@ package estruturasCondicionais;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Exerc02v2OrdemCrescenteComLacoFor {
+public class Exerc02v2NumeroEmOrdemCrescenteComLacoFor {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 

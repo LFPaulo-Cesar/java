@@ -4,7 +4,7 @@ package estruturasCondicionais;
 
 import java.util.Scanner;
 
-public class Exerc02v1MaiorNumero {
+public class Exerc02v1NumeroEmOrdemCrescente {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
