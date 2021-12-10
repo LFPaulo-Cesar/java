@@ -9,18 +9,19 @@ import java.util.Scanner;
 public class Exerc06MediaDosMultiplosDeTres {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);		
-		int numero, somaMultiplos = 0, contador = 0, mediaMultiplosDe3;
+		int numero, somaMultiplos = 0, contador = 0;
+		double mediaMultiplosDe3;
 		
 		do {
 			System.out.println("Digite um número: ");
 			numero = input.nextInt();
-			if(numero %3 == 0) {
+			if(numero %3 == 0 && numero != 0) {
 				somaMultiplos += numero;
 				contador++;
 			}
 		}while(numero != 0);
 		
-		mediaMultiplosDe3 = somaMultiplos / contador;
+		mediaMultiplosDe3 = (double) somaMultiplos / contador;
 		System.out.println("A média dos números digitados que são múltiplos de três são: "+mediaMultiplosDe3);
 		
 		input.close();
