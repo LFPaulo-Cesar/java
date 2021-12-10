@@ -21,5 +21,6 @@ public class Exerc01v2MaiorNumeroComLacoFor {
 			}
 		}
 		System.out.println("O maior número digitado foi: "+numeroMaior);
+		input.close();
 	}
 }

@@ -26,9 +26,6 @@ public class Exerc07Equacao {
 		
 		System.out.println("O valor de x é: "+x);
 		System.out.println("O valor de y é: "+y);
-		
-		
-		
-		
+		input.close();
 	}
 }

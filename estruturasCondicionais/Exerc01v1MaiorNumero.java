@@ -27,5 +27,6 @@ public class Exerc01v1MaiorNumero {
 			maiorNumero = num3;
 		}
 		System.out.println(maiorNumero);
+		input.close();
 	}
 }

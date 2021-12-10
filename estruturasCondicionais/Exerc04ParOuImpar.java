@@ -22,5 +22,6 @@ public class Exerc04ParOuImpar {
 			quadradoDeNumero = Math.pow(numero, 2);
 			System.out.println("O número "+(int)numero+" é Ímpar!\nE elevado ao quadrado é: "+(int)quadradoDeNumero);
 		}
+		input.close();
 	}
 }

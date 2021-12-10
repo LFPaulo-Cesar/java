@@ -20,6 +20,6 @@ public class Exerc06DistanciaEntreDoisPontos {
 		distancia = Math.sqrt(Math.pow((x2 - x1), 2)) + (Math.pow((y2 - y1), 2));
 		
 		System.out.println("\nA distância entre dois pontos será: " + distancia);
-
+		input.close();
 	}
 }

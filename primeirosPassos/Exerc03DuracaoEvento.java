@@ -18,6 +18,7 @@ public class Exerc03DuracaoEvento {
 		segundos = (segundos%3600)%60;
 					
 		System.out.println("\nA duração total do evento foi de: "+horas+" horas, "+minutos+" minutos e "
-				+segundos+" segundos.");		
+				+segundos+" segundos.");	
+		input.close();
 	}
 }

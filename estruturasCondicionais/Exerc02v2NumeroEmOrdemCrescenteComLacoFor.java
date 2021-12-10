@@ -22,6 +22,7 @@ public class Exerc02v2NumeroEmOrdemCrescenteComLacoFor {
 		System.out.print("Os números em ordem crescente são: ");
 		for (int i = 0; i < 3; i++) {
 		System.out.print(numero[i]+" ");
+		input.close();
 		}
 	}
 }

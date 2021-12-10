@@ -19,7 +19,7 @@ public class Exerc02ConversaoIdadeDias {
 		
 		conversaoDias = anos + meses +  dias;
 		System.out.println("A sua idade em dias é: "+conversaoDias);
-
+		input.close();
 	}
 
 }

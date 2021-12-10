@@ -40,5 +40,6 @@ public class Exerc02v1NumeroEmOrdemCrescente {
 			num3 = numAux;
 		}
 		System.out.println("Os números digitados em ordem crescente ficarão: "+num1+", "+num2+", "+num3+".");
+		input.close();
 	}
 }

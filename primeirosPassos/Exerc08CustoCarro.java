@@ -20,6 +20,6 @@ public class Exerc08CustoCarro {
 		custoFinal = (custoFabrica * porcentagemDistribuidor) + (custoFabrica * impostos) + custoFabrica;
 		
 		System.out.println("\nO custo final do carro que o consumidor irá pagar será de: "+custoFinal+" reais.");
-		
+		input.close();
 	}
 }

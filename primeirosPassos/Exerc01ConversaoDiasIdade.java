@@ -19,7 +19,7 @@ public class Exerc01ConversaoDiasIdade {
 		dias = (dias % 365) % 30;
 		
 		System.out.println("A sua idade é "+anos+" anos, "+meses+" meses e "+dias+" dias.");
-				
+		input.close();		
 	}
 
 }

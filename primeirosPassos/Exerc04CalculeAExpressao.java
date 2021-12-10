@@ -20,11 +20,6 @@ public class Exerc04CalculeAExpressao {
 		d = (r + s) / 2;
 		
 		System.out.println("O valor de D é: "+d);
-		
-				
-		
-		
-		
-		
+		input.close();
 	}
 }

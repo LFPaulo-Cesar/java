@@ -23,5 +23,6 @@ public class Exerc03CategoriaIdade {
 		} else {
 			System.out.println("\nIdade inválida! Favor informe uma idade válida.");
 		}
+		input.close();
 	}
 }
